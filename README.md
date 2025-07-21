@@ -38,10 +38,28 @@ This project focuses on detecting and categorizing vehicles in real-time from vi
 
 ## 📁 Folder Structure
 
-vehicle-detection/
-├── videos/ # Sample input videos
-├── output/ # Processed video outputs
-├── haarcascades/ # Detection model files (if using Haar)
-├── vehicle_counter.py # Main Python script
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+category-wise-vehicle-detection/
+├── models/                          
+│   ├── yolov3.cfg                   # YOLO configuration file
+│   └── coco.names                   # COCO dataset class labels
+│
+├── static/
+│   ├── style.css                    # CSS styling for web UI
+│
+├── templates/
+│   └── index.html                   # HTML frontend template
+│
+├── videos/
+│   └── video.mp4                    # Sample input video for testing
+│
+├── scripts/
+│   ├── vehicle_detection.py         # Main vehicle detection script
+│   ├── import_cv22.py              # Helper import or script module
+│   └── your_detection_script.pyc    # Compiled python file (can be ignored or deleted)
+│
+├── app.py                           # Flask app if running as a web service
+├── code.py                          # Possibly testing or demo code (rename meaningfully)
+├── README.md                        # Project documentation
+├── requirements.txt                 # Python dependencies list
+└── .gitignore                       # Git ignore file
+
