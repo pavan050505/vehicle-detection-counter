@@ -38,6 +38,9 @@ This project focuses on detecting and categorizing vehicles in real-time from vi
 
 ## 📁 Folder Structure
 
+### 📁 Folder Structure
+
+```bash
 category-wise-vehicle-detection/
 ├── models/                          
 │   ├── yolov3.cfg                   # YOLO configuration file
@@ -61,4 +64,4 @@ category-wise-vehicle-detection/
 ├── README.md                        # Project documentation
 ├── requirements.txt                 # Python dependencies
 └── .gitignore                       # Git ignore file
-
+```
