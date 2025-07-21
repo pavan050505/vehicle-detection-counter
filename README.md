@@ -43,23 +43,22 @@ category-wise-vehicle-detection/
 │   ├── yolov3.cfg                   # YOLO configuration file
 │   └── coco.names                   # COCO dataset class labels
 │
-├── static/
-│   ├── style.css                    # CSS styling for web UI
+├── static/                          
+│   └── style.css                    # CSS styling for web UI
 │
-├── templates/
+├── templates/                       
 │   └── index.html                   # HTML frontend template
 │
-├── videos/
+├── videos/                          
 │   └── video.mp4                    # Sample input video for testing
 │
 ├── scripts/
 │   ├── vehicle_detection.py         # Main vehicle detection script
-│   ├── import_cv22.py              # Helper import or script module
-│   └── your_detection_script.pyc    # Compiled python file (can be ignored or deleted)
+│   ├── import_cv22.py               # Helper import or module
 │
-├── app.py                           # Flask app if running as a web service
-├── code.py                          # Possibly testing or demo code (rename meaningfully)
+├── app.py                           # Flask app (if using a web interface)
+├── code.py                          # Testing/demo code (rename if needed)
 ├── README.md                        # Project documentation
-├── requirements.txt                 # Python dependencies list
+├── requirements.txt                 # Python dependencies
 └── .gitignore                       # Git ignore file
 
