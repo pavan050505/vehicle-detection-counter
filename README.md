@@ -65,3 +65,6 @@ category-wise-vehicle-detection/
 ├── requirements.txt                 # Python dependencies
 └── .gitignore                       # Git ignore file
 ```
+## 🎥 Video Presentation
+
+[![Watch the Demo](https://img.youtube.com/vi/pSaLdVufIsA/0.jpg)](https://www.youtube.com/watch?v=pSaLdVufIsA)
