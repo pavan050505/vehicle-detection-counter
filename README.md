@@ -11,8 +11,7 @@ This project focuses on detecting and categorizing vehicles in real-time from vi
 
 - Real-time vehicle detection using Haar Cascades / pre-trained object detection models  
 - Category-wise vehicle classification (Car, Bike, Bus, Truck)  
-- Frame-by-frame object tracking for accurate counting  
-- Dynamic region of interest (ROI) for optimized detection zones  
+- Frame-by-frame object tracking for accurate counting   
 - Simple UI to visualize live counts and bounding boxes  
 - Video file or webcam input support  
 
